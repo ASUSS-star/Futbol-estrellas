@@ -1,4 +1,4 @@
-# Estrellas del Fútbol — Proyecto Final React
+# Top Jugadores — Proyecto Final React
 
 App React (Vite) que consume un JSON propio alojado en GitHub.
 

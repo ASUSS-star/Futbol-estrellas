@@ -24,7 +24,7 @@ export default function App() {
           <Route path="*" element={<NoEncontrada />} />
         </Routes>
       </main>
-      <footer className="footer">© 2026 Estrellas del Fútbol · Proyecto Final React</footer>
+      <footer className="footer">© 2026 Top Jugadores · Proyecto Final React</footer>
     </>
   )
 }

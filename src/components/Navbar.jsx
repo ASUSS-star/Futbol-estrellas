@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-inner">
-        <NavLink to="/" className="logo">⚽ Estrellas del Fútbol</NavLink>
+        <NavLink to="/" className="logo"><span className="logo-m">⚽</span> Top Jugadores</NavLink>
         <nav className="menu">
           <NavLink to="/" end>Inicio</NavLink>
           <NavLink to="/acerca">Acerca de</NavLink>
