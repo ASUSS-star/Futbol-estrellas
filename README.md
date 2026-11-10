@@ -4,8 +4,9 @@ Aplicación web de fútbol hecha con React y Vite. Muestra un ranking de jugador
 
 ## Funcionalidades
 
-- Listado de jugadores ordenado por ranking.
+- Ranking de 24 jugadores, organizado en páginas de ocho perfiles.
 - Búsqueda por nombre, país, equipo o liga.
+- Navegación entre páginas con opciones para avanzar, regresar o volver al inicio del ranking.
 - Página de detalle con navegación al jugador anterior y siguiente.
 - Edad calculada a partir de la fecha de nacimiento.
 - Banderas de nacionalidad y fotos consultadas desde Wikipedia.
