@@ -10,7 +10,7 @@ export default function useFetch(url) {
     let cancelado = false
     setLoading(true)
     setError(null)
-    fetch(url)
+    fetch(url, { cache: 'no-cache' })
       .then((res) => {
         if (!res.ok) throw new Error('Error ' + res.status)
         return res.json()
