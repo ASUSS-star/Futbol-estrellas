@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lionel Messi",
+    "descripcion": "Considerado por muchos el mejor de todos los tiempos. Campeón del Mundo con Argentina en 2022, ganador de 8 Balones de Oro y referente por su regate y visión de juego.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Lionel%20Messi",
+    "pais": "Argentina",
+    "club": "Inter Miami",
+    "posicion": "Delantero",
+    "fechaNacimiento": "1987-06-24",
+    "balonesDeOro": 8
+  },
+  {
+    "id": 2,
+    "nombre": "Cristiano Ronaldo",
+    "descripcion": "Máximo goleador histórico del fútbol profesional. Campeón de Europa con el Real Madrid y la Eurocopa 2016 con Portugal, famoso por su físico y su remate.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Cristiano%20Ronaldo",
+    "pais": "Portugal",
+    "club": "Al Nassr",
+    "posicion": "Delantero",
+    "fechaNacimiento": "1985-02-05",
+    "balonesDeOro": 5
+  },
+  {
+    "id": 3,
+    "nombre": "Pelé",
+    "descripcion": "Leyenda brasileña, único jugador en ganar tres Copas del Mundo (1958, 1962 y 1970). Símbolo del 'jogo bonito' y del fútbol del siglo XX.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Pel%C3%A9",
+    "pais": "Brasil",
+    "club": "Retirado (Santos / Cosmos)",
+    "posicion": "Delantero",
+    "fechaNacimiento": "1940-10-23",
+    "balonesDeOro": 0
+  },
+  {
+    "id": 4,
+    "nombre": "Diego Maradona",
+    "descripcion": "Genio argentino, campeón del Mundo en México 1986 y líder del Nápoles campeón de Italia. Autor del 'gol del siglo' ante Inglaterra.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Diego%20Maradona",
+    "pais": "Argentina",
+    "club": "Retirado (Nápoles / Boca)",
+    "posicion": "Mediapunta",
+    "fechaNacimiento": "1960-10-30",
+    "balonesDeOro": 0
+  },
+  {
+    "id": 5,
+    "nombre": "Johan Cruyff",
+    "descripcion": "Máximo exponente del 'Fútbol Total' holandés y tres veces Balón de Oro. Como jugador y entrenador transformó la filosofía del Barcelona.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Johan%20Cruyff",
+    "pais": "Países Bajos",
+    "club": "Retirado (Ajax / Barcelona)",
+    "posicion": "Delantero",
+    "fechaNacimiento": "1947-04-25",
+    "balonesDeOro": 3
+  },
+  {
+    "id": 6,
+    "nombre": "Zinedine Zidane",
+    "descripcion": "Mediocampista elegante, campeón del Mundo en 1998 y de la Eurocopa 2000 con Francia. Ganó el Balón de Oro en 1998 y la Champions con el Real Madrid.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Zinedine%20Zidane",
+    "pais": "Francia",
+    "club": "Retirado (Real Madrid / Juventus)",
+    "posicion": "Mediocampista",
+    "fechaNacimiento": "1972-06-23",
+    "balonesDeOro": 1
+  },
+  {
+    "id": 7,
+    "nombre": "Ronaldo Nazário",
+    "descripcion": "'El Fenómeno': velocidad, potencia y definición letales. Bicampeón del Mundo con Brasil (1994 y 2002) y dos veces Balón de Oro.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Ronaldo%20Naz%C3%A1rio",
+    "pais": "Brasil",
+    "club": "Retirado (Inter / Real Madrid)",
+    "posicion": "Delantero",
+    "fechaNacimiento": "1976-09-18",
+    "balonesDeOro": 2
+  },
+  {
+    "id": 8,
+    "nombre": "Ronaldinho",
+    "descripcion": "Mago brasileño del Barcelona, Balón de Oro 2005 y campeón del Mundo en 2002. Su sonrisa y sus jugadas llenaron de alegría los estadios.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Ronaldinho",
+    "pais": "Brasil",
+    "club": "Retirado (Barcelona / PSG)",
+    "posicion": "Mediapunta",
+    "fechaNacimiento": "1980-03-21",
+    "balonesDeOro": 1
+  },
+  {
+    "id": 9,
+    "nombre": "Kylian Mbappé",
+    "descripcion": "Velocista francés campeón del Mundo en 2018 y goleador del Mundial 2022. Una de las mayores estrellas actuales del fútbol europeo.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Kylian%20Mbapp%C3%A9",
+    "pais": "Francia",
+    "club": "Real Madrid",
+    "posicion": "Delantero",
+    "fechaNacimiento": "1998-12-20",
+    "balonesDeOro": 0
+  },
+  {
+    "id": 10,
+    "nombre": "Erling Haaland",
+    "descripcion": "Delantero noruego de potencia descomunal y faro goleador del Manchester City, con el que ganó el triplete en la temporada 2022-23.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Erling%20Haaland",
+    "pais": "Noruega",
+    "club": "Manchester City",
+    "posicion": "Delantero",
+    "fechaNacimiento": "2000-07-21",
+    "balonesDeOro": 0
+  },
+  {
+    "id": 11,
+    "nombre": "Vinícius Júnior",
+    "descripcion": "Extremo brasileño explosivo y desequilibrante. Figura del Real Madrid en sus títulos de Champions League.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Vin%C3%ADcius%20J%C3%BAnior",
+    "pais": "Brasil",
+    "club": "Real Madrid",
+    "posicion": "Extremo",
+    "fechaNacimiento": "2000-07-12",
+    "balonesDeOro": 0
+  },
+  {
+    "id": 12,
+    "nombre": "Jude Bellingham",
+    "descripcion": "Mediocampista inglés completo, llegó al Real Madrid siendo muy joven y destacó de inmediato por su llegada al área y su liderazgo.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Jude%20Bellingham",
+    "pais": "Inglaterra",
+    "club": "Real Madrid",
+    "posicion": "Mediocampista",
+    "fechaNacimiento": "2003-06-29",
+    "balonesDeOro": 0
+  },
+  {
+    "id": 13,
+    "nombre": "Lamine Yamal",
+    "descripcion": "Joya del Barcelona y campeón de Europa con España en 2024. Irrumpió como adolescente con un talento fuera de lo común.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Lamine%20Yamal",
+    "pais": "España",
+    "club": "FC Barcelona",
+    "posicion": "Extremo",
+    "fechaNacimiento": "2007-07-13",
+    "balonesDeOro": 0
+  },
+  {
+    "id": 14,
+    "nombre": "Luka Modrić",
+    "descripcion": "Maestro croata del mediocampo, Balón de Oro 2018 y subcampeón del Mundo con Croacia. Ganó múltiples Champions con el Real Madrid.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Luka%20Modri%C4%87",
+    "pais": "Croacia",
+    "club": "AC Milan",
+    "posicion": "Mediocampista",
+    "fechaNacimiento": "1985-09-09",
+    "balonesDeOro": 1
+  },
+  {
+    "id": 15,
+    "nombre": "Rodri",
+    "descripcion": "Pivote español y cerebro del Manchester City y de la selección. Ganó el Balón de Oro 2024 gracias a su dominio del juego.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Rodri",
+    "pais": "España",
+    "club": "Manchester City",
+    "posicion": "Mediocampista",
+    "fechaNacimiento": "1996-06-22",
+    "balonesDeOro": 1
+  },
+  {
+    "id": 16,
+    "nombre": "Ousmane Dembélé",
+    "descripcion": "Extremo francés veloz y de gran habilidad con ambos pies. Referente del PSG, ganó el Balón de Oro 2025.",
+    "imagen": "https://ui-avatars.com/api/?size=400&background=0d3b66&color=ffffff&bold=true&name=Ousmane%20Demb%C3%A9l%C3%A9",
+    "pais": "Francia",
+    "club": "Paris Saint-Germain",
+    "posicion": "Extremo",
+    "fechaNacimiento": "1997-05-15",
+    "balonesDeOro": 1
+  }
+]
