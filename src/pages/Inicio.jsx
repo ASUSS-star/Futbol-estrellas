@@ -18,6 +18,9 @@ export default function Inicio({ jugadores, loading, error }) {
   const paginaActual = Math.min(pagina, Math.max(totalPaginas, 1))
   const inicio = (paginaActual - 1) * JUGADORES_POR_PAGINA
   const visibles = filtrados.slice(inicio, inicio + JUGADORES_POR_PAGINA)
+  const paises = new Set(jugadores.map((j) => j.pais)).size
+  const ligas = new Set(jugadores.map((j) => j.liga)).size
+  const equipos = new Set(jugadores.map((j) => j.equipo)).size
 
   function cambiarPagina(nuevaPagina) {
     setPagina(nuevaPagina)
@@ -30,9 +33,30 @@ export default function Inicio({ jugadores, loading, error }) {
       <section className="introduccion-ranking" aria-label="Acerca del ranking">
         <h2>Las estrellas del fútbol mundial</h2>
         <p>
-          Descubre a los jugadores que destacan por su talento, rendimiento y huella en el fútbol.
-          Explora sus equipos, ligas y perfiles, o busca por nombre, país y club.
+          Un recorrido por las figuras que dan forma al fútbol de la temporada 2025-26. Explora sus
+          perfiles, conoce sus equipos y ligas, y descubre cómo conviven distintas posiciones,
+          nacionalidades y estilos de juego en el fútbol actual.
         </p>
+      </section>
+      <section className="contexto-ranking" aria-label="Contexto del ranking">
+        <div className="contexto-cifras">
+          <div><strong>{jugadores.length}</strong><span>jugadores</span></div>
+          <div><strong>{paises}</strong><span>países</span></div>
+          <div><strong>{ligas}</strong><span>ligas</span></div>
+          <div><strong>{equipos}</strong><span>equipos</span></div>
+        </div>
+        <div className="contexto-texto">
+          <h2>Más que goles</h2>
+          <p>
+            El fútbol se construye con distintas funciones: los delanteros buscan definir, los
+            mediocampistas conectan y organizan, los defensas protegen su área y los porteros son
+            la última barrera. Este ranking editorial reúne perfiles de todas esas posiciones.
+          </p>
+          <p className="contexto-nota">
+            Es una selección informativa para conocer jugadores y clubes; no es una clasificación
+            oficial ni una tabla de estadísticas en vivo.
+          </p>
+        </div>
       </section>
       <input
         className="buscador"
